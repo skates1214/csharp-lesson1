@@ -1,0 +1,240 @@
+#####################################################################
+##  Learning C# - Lesson 1 - Day 2      #############################                            
+#####################################################################
+
+TASKS
+
+  The following tasks should be completed without assistance. Take as 
+  long as you need and check in once each task is completed.
+		  
+		  
+  Task 1:  In your ConsoleApp project, create a new enum type, 
+           Colors, and add the following options to it: 
+		  
+		   - Black
+		   - White
+		   - Blue
+		   - Green
+		   - Red
+		   - Yellow
+		   - Purple
+		   - Brown
+		   - Orange
+		  
+		   You can put the colors in any order you like, so long as 
+		   Black is the default value. If you do not know how to 
+		   ensure that Black is the default value, ask Google. 
+		   
+		   
+  Task 2:  Update the Dot class from yesterday to use your new Colors
+           enum type for the Dot.Color property. Make sure that you
+		   apply the refactoring wherever needed, and that the 
+		   program runs and writes the color's name correctly. 
+  
+  
+  Task 3:  Look up the following and be sure that you know what each
+           is, the difference(s) between them, and how to create them
+		   in code. 
+		   
+		   - Override method
+		   - Overload method
+		   
+		   NOTES
+		   
+		   If you have any trouble, be sure that you have
+		   StackOverflow, blogs, MSDN docs, or other references open
+		   on your desktop before you call me over for help. A large
+		   portion of this question is ensuring that you know how to
+		   ask Google and research these kinds of things. I will, of
+		   course, help you to understand what you find, if needed, 
+		   but first try to understand it on your own ;)
+
+  
+  Task 4:  Find the MSDN documentation page listing all operators.
+		  
+		  
+  Task 5:  In your ConsoleApp, add a new class, OperatorsTesting. The
+           new class requires no constructor or properties, and its 
+		   purpose will be to hold the methods that you will be
+		   writing in order to learn the most commonly used operators
+		   in C# coding.
+		  
+		  
+  Task 6:  Look up Black-Box coding/testing and be sure that you know 
+           what it means (Wikipedia is a valid resource).   
+		
+ 
+  Task 7:  Look up how to write an inline comment. Be sure that you 
+           know how to write both multiline and single-line inline 
+		   comments
+		
+		  
+  Task 8:  Below, you will see that I have provided plain-English 
+           descriptions of custom C# methods. For each, rewrite the 
+		   method in C#, in the ConsoleApp.OperatorsTesting class. 
+		   
+		   NOTES
+		   
+		   Provide only the simplest answer for each.
+		   
+		   Do not return a type other than the default, unless 
+		   instructed to do so. For example, while a method that 
+		   performs integer addition could return a float, a decimal, 
+		   a double, etc. this method should return an integer.
+		   
+		   Some of the methods that you write may require logic that
+		   you already wrote in another method. Rather than 
+		   duplicating the code, call existing methods whenever
+		   possible, unless otherwise instructed.
+		   
+		   In the below, a b c and d are specified as the names of 
+		   the parameters. Feel free to rename these parameters at
+		   will. The names in the descriptions are for illustative
+		   purposes only. However, the order of the parameters is
+		   important. Be sure that their order in the code matches
+		   their order in the description.
+		   
+		   In the below, be sure to use the specified method name. 
+		   These method names are for practice and learning, only. Do
+		   not use these method names in actual code. 
+		   
+		   * Important:  I will be writing a test program that will 
+		                 call each method (thus validating that you
+						 have supplied the correct parameters and 
+						 correctly named the method), and compare
+						 the method's return value with the value 
+						 that I am expect, based on the given 
+						 inputs. This program will be Black-Box.						 			
+            				
+		   1.  Given two integers, a and b, calculate their sum.
+		       Name: GetSum
+		   
+		   2.  Given two integers, a and b, calculate their 
+		       difference by subtracting b from a. 
+		       Name: GetDifference
+			   
+		   3.  Given two integers, a and b, calculate their product.
+		       Name: GetProduct
+		   
+		   4.  Given two integers, a and b, calculate their quotient
+		       by dividing a by b.
+		       Name: GetQuotient
+		   
+		   5.  Given two integers, a and b, calculate the remainder
+		       of dividing a by b.
+		       Name: GetRemainder
+			   
+		   6.  Given two integers, a and b, calculate the result of
+		       a to the power of b.
+		       Name: GetPower
+			   
+		   7.  Given two integers, a and b, return the value of the 
+		       logical comparison to see if a is greater than b.
+		       Name: GetGreaterThan
+			   
+		   8.  Given two integers, a and b, return the value of the
+		       logical comparison to see if a is less than b.
+		       Name: GetLessThan
+			   
+		   9.  Given two integers, a and b, return the value of the 
+		       logical comparison to see if a is less than or equal
+			   to b. Do not reuse existing methods, but add an 
+			   inline comment listing any that you could have used.
+		       Name: GetLessThanEqualTo
+			   
+		   10. Given two integers, a and b, return the value of the
+		       logical comparison to see if a and b are equal.
+		       Name: GetEqualTo
+			   
+		   11. Given two integers, a and b, return the value of the
+		       logical comparison to see if a and b are not equal. Do
+			   not reuse existing methods, but add an inline comment 
+			   listing any that you could have used.
+		       Name: GetNotEqualTo
+			   
+		   12. Given two boolean values, a and b, return the value of
+		       the logical comparison to see if a and b are true.
+		       Name: GetTrueAndTrue
+			   
+		   13. Given two boolean values, a and b, return the value of
+		       the logical comparison to see if a is true and b is 
+			   false. 
+		       Name: GetTrueAndNotTrue
+			   
+		   14. Given two boolean values, a and b, return the value of
+		       the logical comparison to see if a and b are both 
+			   false.
+		       Name: GetFalseAndFalse
+			   
+		   15. Given two boolean values, a and b, return the value of
+		       the logical comparison to see if a or b is true.
+		       Name: GetTrueOrTrue
+			   
+		   16. Given two boolean values, a and b, return the value of
+		       the logical comparison to see if a or b is false.
+		       Name: GetFalseOrFalse
+			   
+		   17. Given four boolean values, a b c and d, return the
+		       value of the logical comparison to see if a or b is 
+			   true and c is not true, or else if d is true. If you 
+			   have not studied boolean logic at all, feel free to 
+			   ask me for help rather than looking this one up.
+		       Name: GetComplexLogicalResult1
+			   
+		   18. Given one boolean value, a, and two string values, b 
+		       and c, return b if a is true. Otherwise, return c.
+		       Name: GetComplexLogicalResult2
+			   
+		   19. Given two integer values, a and b, and three string 
+		       values, c d and e, return c if a is true, d if b is
+			   true and e if neither are true. Do not return a value 
+			   until the end of the method. 
+		       Name: GetComplexLogicalResult3
+			   
+		   20. Given two string values, a and b, return the value of
+		       b appended to a. Use only operators to do the 
+			   concatenation - do not use methods (yours or built-in
+			   ones). 
+		       Name: GetConcatenated
+			   
+		   
+		       
+			   
+			   
+			   
+						
+						 
+		  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
