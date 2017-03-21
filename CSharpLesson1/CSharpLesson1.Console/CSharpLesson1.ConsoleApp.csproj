@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CSharpLesson1.ConsoleApp</RootNamespace>
     <AssemblyName>CSharpLesson1.ConsoleApp</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,14 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Color.cs" />
     <Compile Include="CornerType.cs" />
     <Compile Include="Dot.cs" />
-    <Compile Include="OperatorsTesting.cs" />
     <Compile Include="PlanarPosition.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shape.cs" />
+    <Compile Include="Tests\Day2\IOperatorsTesting.cs" />
+    <Compile Include="Tests\Day2\TestManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
