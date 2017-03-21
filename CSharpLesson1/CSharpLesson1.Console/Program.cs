@@ -10,14 +10,14 @@ namespace CSharpLesson1.ConsoleApp
     {
         public static void Main(string[] args)
         {
-            var dot1color = Colors.Black;
+            var dot1color = Color.Black;
             var dot1Position = new PlanarPosition(0, 0);
             var dot1Shape = new Shape("round", CornerType.Rounded);
             var dot1 = new Dot(dot1color, dot1Shape, dot1Position, 4);
 
             var dot2 = new Dot()
             {
-                Color = Colors.Red,
+                Color = Color.Red,
                 Shape = new Shape("square", CornerType.Square),
                 Position = new PlanarPosition(5, 5),
                 Size = 4

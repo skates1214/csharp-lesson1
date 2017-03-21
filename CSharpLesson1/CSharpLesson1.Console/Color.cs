@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpLesson1.ConsoleApp
 {
-    public enum Colors  
+    public enum Color 
     {
         Black,
         White,
