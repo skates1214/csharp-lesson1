@@ -22,8 +22,14 @@ namespace CSharpLesson1.ConsoleApp
                 Size = 4
             };
 
+            var dot3 = new Dot(null, dot1Position, 8)
+            {
+                Color = "purple"
+            };
+
             Console.WriteLine(dot1);
             Console.WriteLine(dot2);
+            Console.WriteLine(dot3);
             Console.Read();
         }
     }
