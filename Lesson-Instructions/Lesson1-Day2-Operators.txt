@@ -159,7 +159,7 @@ TASKS
 		   13. Given two boolean values, a and b, return the value of
 		       the logical comparison to see if a is true and b is 
 			   false. 
-		       Name: GetTrueAndNotTrue
+		       Name: GetTrueAndFalse
 			   
 		   14. Given two boolean values, a and b, return the value of
 		       the logical comparison to see if a and b are both 
