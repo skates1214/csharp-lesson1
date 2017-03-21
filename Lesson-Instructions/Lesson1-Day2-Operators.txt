@@ -185,7 +185,7 @@ TASKS
 		       and c, return b if a is true. Otherwise, return c.
 		       Name: GetComplexLogicalResult2
 			   
-		   19. Given two integer values, a and b, and three string 
+		   19. Given two boolean values, a and b, and three string 
 		       values, c d and e, return c if a is true, d if b is
 			   true and e if neither are true. Do not return a value 
 			   until the end of the method. 

@@ -44,7 +44,7 @@ namespace CSharpLesson1.ConsoleApp.Tests.Day2
 
         string GetComplexLogicalResult2(bool a, string b, string c);
 
-        string GetComplexLogicalResult3(int a, int b, string c, string d, string e);
+        string GetComplexLogicalResult3(bool a, bool b, string c, string d, string e);
 
         string GetConcatenated(string a, string b);
     }
