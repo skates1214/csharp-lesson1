@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Color.cs" />
     <Compile Include="CornerType.cs" />
     <Compile Include="Dot.cs" />
+    <Compile Include="OperatorsTesting.cs" />
     <Compile Include="PlanarPosition.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
