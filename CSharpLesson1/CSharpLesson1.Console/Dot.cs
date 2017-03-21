@@ -11,7 +11,7 @@ namespace CSharpLesson1.ConsoleApp
         /// <summary>
         /// Color of the dot 
         /// </summary>
-        public string Color { get; set; }
+        public Color Color { get; set; }
         /// <summary>
         /// Shape of the dot
         /// </summary>
@@ -38,8 +38,9 @@ namespace CSharpLesson1.ConsoleApp
         /// <param name="shape">Shape of the Dot</param>
         /// <param name="position">Position of the Dot</param>
         /// <param name="size">Diameter of the Dot, in millimeters</param>
-        public Dot(Shape shape, PlanarPosition position, double size)
+        public Dot(Color color, Shape shape, PlanarPosition position, double size)
         {
+            Color = color;
             Shape = shape;
             Position = position;
             Size = size;
